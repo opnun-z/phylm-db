@@ -1,4 +1,5 @@
-<img width="819" alt="Screenshot 2023-07-06 at 1 54 47 AM" src="https://github.com/opnun-z/phylm-db/assets/90743072/3b25e51a-7384-49e6-aa68-4a2f5caf445a">
+<img width="1000" alt="phylm" src="https://github.com/opnun-z/phylm-db/assets/90743072/ecdd0ca3-b113-4ed6-acec-103e46e42760">
+
 
 # About
 Phylm db aims to be a consistent interface with which to interact with all of your sql / nosql databases. Most of the time just getting a key value database up and running with greater that 1 GB of storage is way more expensive or time intensive than it should be. By adding a redis like wrapper around any database of your choosing (inclusing local JSON files) you can forget about the specific database used and just focus on the project at hand. 
