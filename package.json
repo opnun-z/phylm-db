@@ -1,6 +1,6 @@
 {
   "name": "phylm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Phylm db interface for upstash redis client",
   "main": "index.js",
   "scripts": {

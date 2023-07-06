@@ -27,6 +27,11 @@ interface db {
    * Scan db for all keys with pagination
    */
   scan: (cursor: number | null) => Promise<{ cursor: number; keys: string[] }>;
+
+  /**
+   * The complete client used (current upstash Redis client)
+   */
+  complete?: any;
 }
 
 /**
