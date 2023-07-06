@@ -1,0 +1,22 @@
+{
+  "name": "phylm",
+  "version": "1.0.0",
+  "description": "Phylm db interface for upstash redis client",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest . --watchAll"
+  },
+  "keywords": [
+    "key-value", "database"
+  ],
+  "author": "opnun-z",
+  "license": "MIT",
+  "dependencies": {
+    "@upstash/redis": "^1.22.0",
+    "node-localstorage": "^2.2.1"
+  },
+  "devDependencies": {
+    "jest": "^29.6.0",
+    "prettier": "^3.0.0"
+  }
+}
