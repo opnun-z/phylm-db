@@ -27,8 +27,6 @@ const handler = async (req, res) => {
 ```
 Once you are ready to deploy your application you can sign up for https://upstash.com/ and get the environmental variables seen below by creating a redis database and copying the url and token from the dashboard provided.
 
-<img width="1000" alt="Screenshot 2023-07-06 at 2 11 48 AM" src="https://github.com/opnun-z/phylm-db/assets/90743072/fd9b81ff-c7aa-4168-a97b-0f5ad99eb8bf">
-
 ```js
 import { create } from "phylm";
 
