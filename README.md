@@ -63,7 +63,7 @@ const handler = async (req, res) => {
 const handler = async (req, res) => {
   const db = await create(REDIS_URL, UPSTASH_TOKEN, IS_DEVELOPMENT);
   await db.set("item", "value");
-  await deb.set("item1", "value1");
+  await db.set("item1", "value1");
 
   const data = await db.mget(["item"]); // ["value"]
   const multiData = await db.mget(["item", "item1"); // ["value", "value1"]
@@ -109,7 +109,7 @@ const handler = async (req, res) => {
   await db.get("item1"); // null
 };
 ```
-### deb.mdelete(keys)
+### db.mdelete(keys)
 ```db.mdeletes(key)``` Deletes the values of multiple provided keys
 ```js
 const handler = async (req, res) => {
@@ -124,7 +124,7 @@ const handler = async (req, res) => {
 };
 ```
 ## SCAN
-### deb.scan(cursor)
+### db.scan(cursor)
 ```db.scan(cursor)``` Provides a list of the keys in your database in a paginated cursor format.
 
 With a fictionally small pagination of 2 keys per scan 
